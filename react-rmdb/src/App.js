@@ -1,6 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       Start here.
