@@ -1,6 +1,6 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
 import Header from './components/Header/index.js';
+import { GlobalStyle } from './GlobalStart.js';
 
 
 
@@ -10,6 +10,8 @@ const App = () => {
       Its ya boy YAAAAAAHHH YEEET
 
       <Header />
+
+      <GlobalStyle />
     </div>
   );
 }
